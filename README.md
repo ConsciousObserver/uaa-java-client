@@ -1,3 +1,7 @@
+# Note
+This project is fork of the https://github.com/cloudfoundry-incubator/uaa-java-client. Which no longer works with the latest UAA instances of cloudfoundry.
+The main reason for it addtion of attributes **lastLogonDate** and **previousLogonDate** in the **ScimUser** class. Updating the models only with the latest ones lets the old code work.
+
 # Java Client for Cloud Foundry UAA
 
 The Cloud Foundry User Account and Authentication (UAA) service is a set of JSON
